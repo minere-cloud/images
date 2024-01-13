@@ -1,0 +1,7 @@
+services:
+  minecraft-server:
+    build:
+      context: .
+      dockerfile: base/Dockerfile
+    environment:
+      - SERVER_JAR_DOWNLOAD_URL=https://serverjars.com/api/fetchJar/servers/purpur/1.20.4
